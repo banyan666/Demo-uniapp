@@ -11,9 +11,10 @@
 
 <script setup>
 import Tabbar from '../../components/Tabbar/index'
-const title =ref('123213')
+const title =ref('')
 onShow(()=>{
   uni.hideTabBar({})
+  title.value = import.meta.env.VITE_BASE_API
 })
 onLoad(()=>{
   console.log('页面加载')

@@ -17,6 +17,7 @@
     "dev:quickapp-webview": "uni -p quickapp-webview",
     "dev:quickapp-webview-huawei": "uni -p quickapp-webview-huawei",
     "dev:quickapp-webview-union": "uni -p quickapp-webview-union",
+    "build:app-plus": "uni build -p app-plus --mode prod",
     "build:custom": "uni build -p",
     "build:h5": "uni build --mode prod",
     "build:h5:ssr": "uni build --ssr",
